@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    background-color: #f2f2f2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: #b3b3b3;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+h3 {
+    font-size: 16px;
+    padding: 10px;
+    color: rgb(97, 97, 97);
+}
+
+.box {
+    bottom: 320px;
+    justify-content: space-around;
+    max-width: 1000px;
+    max-height: 1000px;
+    height: 280px;
+    width: 80%;
+    padding: 30px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #ffffff, #dddddd);
+    box-shadow:  20px 20px 20px #c6c6c6,
+                -20px -20px 20px #fff;
+}
+
+input[type="button"] {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.button {
+    max-width: 1000px;
+    width: 320px;
+    padding: 20px;
+    margin: 20px;
+    background: rgb(61, 61, 61);
+    color: #fff;
+    border-radius: 20px;
+    outline: none;
+    font-weight: bold;
+    box-shadow:  20px 20px 41px #c6c6c6,
+    -20px -20px 41px #ffffff;
+}
+
+.button:hover {
+    background: rgb(39, 39, 39);
+}
+
+.button:active {
+    background: rgb(0, 0, 0);
+}
+
+a {
+    width: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.wapp {
+    margin: 20px 20px 20px 0px;
+    width: 70px;
+    position: fixed;
+    right: 20px;
+    width: 60px;
+    bottom: 0px;
+    display: block;  
+}
+
+.hidden {
+    display: none;
+}
+
+.wapp:hover {
+
+    width: 61px;
+    transition: 100ms ease-in-out;
+}
+
+.mapa {
+    margin: 0 auto;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    width: 90%;
+    bottom: 10px;
+    left: 27%;  
+}
+
+.mapa-go {
+    height: 200px;
+    width: 50%;
+}
